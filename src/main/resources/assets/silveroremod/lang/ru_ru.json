@@ -1,5 +1,9 @@
 {
   "item.silveroremod.raw_silver": "Рудное серебро",
   "item.silveroremod.silver_ingot": "Серебряный слиток",
-  "item.silveroremod.silver_nugget": "Кусочек серебра"
+  "item.silveroremod.silver_nugget": "Кусочек серебра",
+  "block.silveroremod.silver_ore": "Серебряная руда",
+  "block.silveroremod.silver_block": "Серебряный блок",
+  "block.silveroremod.deepslate_silver_ore": "Среброносный глубинный сланец",
+  "block.silveroremod.raw_silver_block": "Блок рудного серебра"
 }

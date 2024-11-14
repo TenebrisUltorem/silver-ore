@@ -1,5 +1,6 @@
 package com.github.silveroremod;
 
+import com.github.silveroremod.block.ModBlocks;
 import com.github.silveroremod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -21,6 +22,8 @@ public class SilverOreMod {
 
     public SilverOreMod(IEventBus modEventBus, ModContainer modContainer) {
         NeoForge.EVENT_BUS.register(this);
+
+        ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
@@ -32,6 +35,16 @@ public class SilverOreMod {
             event.accept(ModItems.RAW_SILVER);
             event.accept(ModItems.SILVER_INGOT);
             event.accept(ModItems.SILVER_NUGGET);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SILVER_BLOCK);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.SILVER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_SILVER_ORE);
+            event.accept(ModBlocks.RAW_SILVER_BLOCK);
         }
     }
 
