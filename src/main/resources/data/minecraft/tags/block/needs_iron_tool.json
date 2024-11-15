@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "silveroremod:silver_ore",
+    "silveroremod:deepslate_silver_ore",
+    "silveroremod:raw_silver_block",
+    "silveroremod:silver_block"
+  ]
+}
