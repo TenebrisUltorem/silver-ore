@@ -8,5 +8,8 @@
   "block.silveroremod.deepslate_silver_ore": "Среброносный глубинный сланец",
   "block.silveroremod.raw_silver_block": "Блок рудного серебра",
 
-  "creativetab.silveroremod.silver_ore_items_tab": "Silver Ore"
+  "creativetab.silveroremod.silver_ore_items_tab": "Silver Ore",
+
+  "tooltip.silveroremod.deals_minor_damage_to_undead": "§7Наносит небольшой урон нежити, наступившей на него",
+  "tooltip.silveroremod.deals_damage_to_undead": "§7Наносит урон нежити, наступившей на него"
 }
