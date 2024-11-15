@@ -6,5 +6,7 @@
   "block.silveroremod.silver_ore": "Silver Ore",
   "block.silveroremod.silver_block": "Block of Silver",
   "block.silveroremod.deepslate_silver_ore": "Deepslate Silver Ore",
-  "block.silveroremod.raw_silver_block": "Block of Raw Silver"
+  "block.silveroremod.raw_silver_block": "Block of Raw Silver",
+
+  "creativetab.silveroremod.silver_ore_items_tab": "Silver Ore"
 }

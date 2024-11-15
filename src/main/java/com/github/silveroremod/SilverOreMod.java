@@ -1,6 +1,7 @@
 package com.github.silveroremod;
 
 import com.github.silveroremod.block.ModBlocks;
+import com.github.silveroremod.item.ModCreativeModeTabs;
 import com.github.silveroremod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -23,6 +24,7 @@ public class SilverOreMod {
     public SilverOreMod(IEventBus modEventBus, ModContainer modContainer) {
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
 
