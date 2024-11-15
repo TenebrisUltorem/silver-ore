@@ -6,7 +6,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-public class ModItems {
+public class ItemsRegistry {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(SilverOreMod.MOD_ID);
 
     public static final DeferredItem<Item> RAW_SILVER = ITEMS.register(

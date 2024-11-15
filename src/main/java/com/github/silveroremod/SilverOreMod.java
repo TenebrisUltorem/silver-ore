@@ -1,8 +1,8 @@
 package com.github.silveroremod;
 
-import com.github.silveroremod.block.ModBlocks;
-import com.github.silveroremod.item.ModCreativeModeTabs;
-import com.github.silveroremod.item.ModItems;
+import com.github.silveroremod.block.BlocksRegistry;
+import com.github.silveroremod.creativemodetabs.CreativeModeTabsRegistry;
+import com.github.silveroremod.item.ItemsRegistry;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -24,9 +24,9 @@ public class SilverOreMod {
     public SilverOreMod(IEventBus modEventBus, ModContainer modContainer) {
         NeoForge.EVENT_BUS.register(this);
 
-        ModCreativeModeTabs.register(modEventBus);
-        ModBlocks.register(modEventBus);
-        ModItems.register(modEventBus);
+        CreativeModeTabsRegistry.register(modEventBus);
+        BlocksRegistry.register(modEventBus);
+        ItemsRegistry.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -34,19 +34,19 @@ public class SilverOreMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RAW_SILVER);
-            event.accept(ModItems.SILVER_INGOT);
-            event.accept(ModItems.SILVER_NUGGET);
+            event.accept(ItemsRegistry.RAW_SILVER);
+            event.accept(ItemsRegistry.SILVER_INGOT);
+            event.accept(ItemsRegistry.SILVER_NUGGET);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(ModBlocks.SILVER_BLOCK);
+            event.accept(BlocksRegistry.SILVER_BLOCK);
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.SILVER_ORE);
-            event.accept(ModBlocks.DEEPSLATE_SILVER_ORE);
-            event.accept(ModBlocks.RAW_SILVER_BLOCK);
+            event.accept(BlocksRegistry.SILVER_ORE);
+            event.accept(BlocksRegistry.DEEPSLATE_SILVER_ORE);
+            event.accept(BlocksRegistry.RAW_SILVER_BLOCK);
         }
     }
 
