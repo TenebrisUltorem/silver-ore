@@ -39,6 +39,18 @@ public class SilverOreMod {
             event.accept(ItemsRegistry.SILVER_NUGGET);
         }
 
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ItemsRegistry.SILVER_AXE);
+            event.accept(ItemsRegistry.SILVER_HOE);
+            event.accept(ItemsRegistry.SILVER_PICKAXE);
+            event.accept(ItemsRegistry.SILVER_SHOVEL);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ItemsRegistry.SILVER_SWORD);
+            event.accept(ItemsRegistry.SILVER_AXE);
+        }
+
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(BlocksRegistry.SILVER_BLOCK);
         }

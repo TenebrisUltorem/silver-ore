@@ -24,6 +24,13 @@ public class CreativeModeTabsRegistry {
                     output.accept(ItemsRegistry.SILVER_NUGGET);
                     output.accept(ItemsRegistry.SILVER_INGOT);
 
+                    output.accept(ItemsRegistry.SILVER_HOE);
+                    output.accept(ItemsRegistry.SILVER_PICKAXE);
+                    output.accept(ItemsRegistry.SILVER_SHOVEL);
+
+                    output.accept(ItemsRegistry.SILVER_SWORD);
+                    output.accept(ItemsRegistry.SILVER_AXE);
+
                     output.accept(BlocksRegistry.SILVER_ORE);
                     output.accept(BlocksRegistry.DEEPSLATE_SILVER_ORE);
                     output.accept(BlocksRegistry.RAW_SILVER_BLOCK);

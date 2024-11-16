@@ -3,6 +3,12 @@
   "item.silveroremod.silver_ingot": "Silver Ingot",
   "item.silveroremod.silver_nugget": "Silver Nugget",
 
+  "item.silveroremod.silver_axe": "Silver Axe",
+  "item.silveroremod.silver_hoe": "Silver Hoe",
+  "item.silveroremod.silver_pickaxe": "Silver Pickaxe",
+  "item.silveroremod.silver_shovel": "Silver Shovel",
+  "item.silveroremod.silver_sword": "Silver Sword",
+
   "block.silveroremod.silver_ore": "Silver Ore",
   "block.silveroremod.silver_block": "Block of Silver",
   "block.silveroremod.deepslate_silver_ore": "Deepslate Silver Ore",

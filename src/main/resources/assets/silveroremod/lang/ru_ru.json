@@ -3,6 +3,12 @@
   "item.silveroremod.silver_ingot": "Серебряный слиток",
   "item.silveroremod.silver_nugget": "Кусочек серебра",
 
+  "item.silveroremod.silver_axe": "Серебряный топор",
+  "item.silveroremod.silver_hoe": "Серебряная мотыга",
+  "item.silveroremod.silver_pickaxe": "Серебряная кирка",
+  "item.silveroremod.silver_shovel": "Серебряная лопата",
+  "item.silveroremod.silver_sword": "Серебряный меч",
+
   "block.silveroremod.silver_ore": "Серебряная руда",
   "block.silveroremod.silver_block": "Серебряный блок",
   "block.silveroremod.deepslate_silver_ore": "Среброносный глубинный сланец",
