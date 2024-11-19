@@ -16,6 +16,7 @@
 
   "creativetab.silveroremod.silver_ore_items_tab": "Silver Ore",
 
-  "tooltip.silveroremod.deals_minor_damage_to_undead": "§7Deals minor damage to undead that step on it.",
-  "tooltip.silveroremod.deals_damage_to_undead": "§7Deals damage to undead that step on it."
+  "tooltip.silveroremod.deals_minor_damage_to_undead_on_step": "§7Deals minor damage to undead that step on it.",
+  "tooltip.silveroremod.deals_damage_to_undead_on_step": "§7Deals damage to undead that step on it.",
+  "tooltip.silveroremod.deals_damage_to_undead_on_hit": "§7Deals additional damage to undead on hit."
 }
