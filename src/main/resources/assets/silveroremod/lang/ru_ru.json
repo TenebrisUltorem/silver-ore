@@ -16,7 +16,6 @@
 
   "creativetab.silveroremod.silver_ore_items_tab": "Silver Ore",
 
-  "tooltip.silveroremod.deals_minor_damage_to_undead_on_step": "§7Наносит небольшой урон нежити, наступившей на него",
-  "tooltip.silveroremod.deals_damage_to_undead_on_step": "§7Наносит урон нежити, наступившей на него",
-  "tooltip.silveroremod.deals_damage_to_undead_on_hit": "§7При ударе наносит дополнительный урон нежити."
+  "tooltip.silveroremod.deals_minor_damage_to_undead": "§7Наносит небольшой урон нежити",
+  "tooltip.silveroremod.deals_damage_to_undead": "§7Наносит урон нежити"
 }
