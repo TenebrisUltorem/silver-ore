@@ -7,7 +7,7 @@ import net.minecraft.world.item.Tier;
 public class SilverAxe extends AxeItem {
 
     private static final Tier TIER = ToolTiers.SILVER;
-    private static final Properties PROPERTIES = new Properties()
+    private static final Properties PROPERTIES = new AxeItem.Properties()
             .attributes(AxeItem.createAttributes(ToolTiers.SILVER, 7F, -3.2F));
 
     public SilverAxe() {

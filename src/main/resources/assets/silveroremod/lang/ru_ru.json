@@ -10,12 +10,14 @@
   "item.silveroremod.silver_sword": "Серебряный меч",
 
   "block.silveroremod.silver_ore": "Серебряная руда",
-  "block.silveroremod.silver_block": "Серебряный блок",
   "block.silveroremod.deepslate_silver_ore": "Среброносный глубинный сланец",
   "block.silveroremod.raw_silver_block": "Блок рудного серебра",
 
+  "block.silveroremod.silver_block": "Серебряный блок",
+  "block.silveroremod.silver_door": "Серебряная дверь",
+  "block.silveroremod.silver_trap_door": "Серебряный люк",
+
   "creativetab.silveroremod.silver_ore_items_tab": "Silver Ore",
 
-  "tooltip.silveroremod.deals_minor_damage_to_undead": "§7Наносит небольшой урон нежити",
   "tooltip.silveroremod.deals_damage_to_undead": "§7Наносит урон нежити"
 }

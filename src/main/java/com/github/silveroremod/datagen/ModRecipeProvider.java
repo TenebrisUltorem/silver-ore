@@ -123,5 +123,20 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
             .define('s', Items.STICK)
             .unlockedBy("has_silver_nugget", has(ItemsRegistry.SILVER_INGOT))
             .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlocksRegistry.SILVER_DOOR.get())
+            .pattern("##")
+            .pattern("##")
+            .pattern("##")
+            .define('#', ItemsRegistry.SILVER_INGOT)
+            .unlockedBy("has_silver_ingot", has(ItemsRegistry.SILVER_INGOT))
+            .save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, BlocksRegistry.SILVER_TRAP_DOOR.get())
+            .pattern("###")
+            .pattern("###")
+            .define('#', ItemsRegistry.SILVER_INGOT)
+            .unlockedBy("has_silver_ingot", has(ItemsRegistry.SILVER_INGOT))
+            .save(pRecipeOutput);
     }
 }

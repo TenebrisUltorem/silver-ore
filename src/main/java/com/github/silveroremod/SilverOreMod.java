@@ -53,6 +53,9 @@ public class SilverOreMod {
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(BlocksRegistry.SILVER_BLOCK);
+
+            event.accept(BlocksRegistry.SILVER_DOOR);
+            event.accept(BlocksRegistry.SILVER_TRAP_DOOR);
         }
 
         if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

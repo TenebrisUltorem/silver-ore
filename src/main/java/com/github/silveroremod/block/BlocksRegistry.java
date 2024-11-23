@@ -5,6 +5,8 @@ import com.github.silveroremod.item.ItemsRegistry;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DoorBlock;
+import net.minecraft.world.level.block.TrapDoorBlock;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -25,6 +27,12 @@ public class BlocksRegistry {
 
     public static final DeferredBlock<Block> SILVER_BLOCK = registerBlock(
             "silver_block", SilverBlock::new);
+
+    public static final DeferredBlock<DoorBlock> SILVER_DOOR = registerBlock(
+        "silver_door", SilverDoor::new);
+
+    public static final DeferredBlock<TrapDoorBlock> SILVER_TRAP_DOOR = registerBlock(
+        "silver_trap_door", SilverTrapDoor::new);
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> blockSupplier) {

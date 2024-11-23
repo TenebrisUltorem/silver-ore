@@ -43,6 +43,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 ItemsRegistry.RAW_SILVER.get(),
                 1, 3)
         );
+
+        add(BlocksRegistry.SILVER_DOOR.get(), block -> createDoorTable(BlocksRegistry.SILVER_DOOR.get()));
+        dropSelf(BlocksRegistry.SILVER_TRAP_DOOR.get());
     }
 
 

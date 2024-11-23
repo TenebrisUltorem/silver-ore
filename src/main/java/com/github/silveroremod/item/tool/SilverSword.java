@@ -8,7 +8,7 @@ import net.minecraft.world.item.Tier;
 public class SilverSword extends SwordItem {
 
     private static final Tier TIER = ToolTiers.SILVER;
-    private static final Item.Properties PROPERTIES = new Item.Properties()
+    private static final Item.Properties PROPERTIES = new SwordItem.Properties()
             .attributes(SwordItem.createAttributes(ToolTiers.SILVER, 3, -2.4F));
 
     public SilverSword() {

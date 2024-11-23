@@ -1,6 +1,7 @@
 package com.github.silveroremod.datagen;
 
 import com.github.silveroremod.SilverOreMod;
+import com.github.silveroremod.block.BlocksRegistry;
 import com.github.silveroremod.item.ItemsRegistry;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
@@ -25,6 +26,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ItemsRegistry.SILVER_PICKAXE);
         handheldItem(ItemsRegistry.SILVER_SHOVEL);
         handheldItem(ItemsRegistry.SILVER_SWORD);
+
+        basicItem(BlocksRegistry.SILVER_DOOR.asItem());
     }
 
     private void handheldItem(DeferredItem<?> item) {

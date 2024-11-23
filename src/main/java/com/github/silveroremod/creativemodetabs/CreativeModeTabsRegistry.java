@@ -34,7 +34,11 @@ public class CreativeModeTabsRegistry {
                     output.accept(BlocksRegistry.SILVER_ORE);
                     output.accept(BlocksRegistry.DEEPSLATE_SILVER_ORE);
                     output.accept(BlocksRegistry.RAW_SILVER_BLOCK);
+
                     output.accept(BlocksRegistry.SILVER_BLOCK);
+
+                    output.accept(BlocksRegistry.SILVER_DOOR);
+                    output.accept(BlocksRegistry.SILVER_TRAP_DOOR);
                 })
                 .build());
     }

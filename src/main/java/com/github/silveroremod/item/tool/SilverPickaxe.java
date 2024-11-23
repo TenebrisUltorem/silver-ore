@@ -7,7 +7,7 @@ import net.minecraft.world.item.Tier;
 public class SilverPickaxe extends PickaxeItem {
 
     private static final Tier TIER = ToolTiers.SILVER;
-    private static final Properties PROPERTIES = new Properties()
+    private static final Properties PROPERTIES = new PickaxeItem.Properties()
             .attributes(PickaxeItem.createAttributes(ToolTiers.SILVER, 1, -2.8F));
 
     public SilverPickaxe() {

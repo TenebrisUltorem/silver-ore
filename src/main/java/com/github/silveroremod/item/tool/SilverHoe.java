@@ -7,7 +7,7 @@ import net.minecraft.world.item.Tier;
 public class SilverHoe extends HoeItem {
 
     private static final Tier TIER = ToolTiers.SILVER;
-    private static final Properties PROPERTIES = new Properties()
+    private static final Properties PROPERTIES = new HoeItem.Properties()
             .attributes(HoeItem.createAttributes(ToolTiers.SILVER, 0F, -2F));
 
     public SilverHoe() {
